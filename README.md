@@ -18,7 +18,7 @@ Data preprocessing was performed to clean and prepare the dataset for effective 
   - Identified and removed duplicate entries to maintain data quality and avoid redundancy.  
 
 - **Handling Missing Values**:  
-  - Addressed missing data in the `keyword` column using a two-step approach:  
+  - Addressed missing data in the "Keyword" column using a two-step approach:  
     - **POS Tagging**: Utilized Part-of-Speech tagging to infer missing keywords based on the context of the tweets.  
     - **Keyword Matching**: Checked for disaster-related terms (e.g., "earthquake") within the tweet text to populate missing keywords where possible.  
 
@@ -26,7 +26,7 @@ Data preprocessing was performed to clean and prepare the dataset for effective 
   - Performed lemmatization to reduce words to their base forms, ensuring consistency in text analysis.  
 
 - **Column Cleanup**:  
-  - Dropped unnecessary columns, such as `id` and `location`, which were deemed irrelevant for the classification task.  
+  - Dropped unnecessary columns, such as "ID" and "Location", which were deemed irrelevant for the classification task.  
 
 These steps ensured a cleaner, more meaningful dataset ready for exploratory analysis and modeling.  
 
