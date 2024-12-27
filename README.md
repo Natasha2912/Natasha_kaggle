@@ -46,6 +46,7 @@ Insights from EDA guided subsequent steps in feature engineering and model selec
 
 ### 4. Feature Engineering  
 Mayuresh Khatavkar:
+
 Feature engineering transformed raw text data into meaningful numerical representations suitable for machine learning models:  
 - **Word2Vec Embeddings**:  
   - Leveraged Word2Vec to generate dense vector representations of tweets, capturing semantic meanings of words and their contextual relationships.  
